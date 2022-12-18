@@ -6,7 +6,20 @@
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 19 Dec 2022 03:18:23 +0800</lastBuildDate><atom:link href="https://lqx2002.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 19 Dec 2022 03:40:24 +0800</lastBuildDate><atom:link href="https://lqx2002.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Myblog命令行</title>
+      <link>https://lqx2002.github.io/post/myblog%E5%91%BD%E4%BB%A4%E8%A1%8C/</link>
+      <pubDate>Mon, 19 Dec 2022 03:40:24 +0800</pubDate>
+      
+      <guid>https://lqx2002.github.io/post/myblog%E5%91%BD%E4%BB%A4%E8%A1%8C/</guid>
+      <description> 安装hugo 1.wget https://github.com/gohugoio/hugo/releases/download/v0.80.0/hugo_0.80.0_Linux-64bit.deb
+2.dpkg -i hugo_0.80.0_Linux-64bit.deb    生成博客
+1.hugo new site myblog
+2.git clone https://github.com/vaga/hugo-theme-m10c.git m10c 3.hugo server -t m10c &amp;ndash;buildDrafts    编写文章 1.hugo new post/linux.md
+2.hugo new post/socket_code.md 3.hugo &amp;ndash;theme=m10c &amp;ndash;baseUrl=&amp;ldquo;https://lqx2002.github.io&amp;rdquo; &amp;ndash;buildDrafts    上传github 1.git init 2.git add * 3.git commit -m &amp;ldquo;第一次提交&amp;rdquo; 4.git remote add origin https://github.com/Lqx2002/lqx2002.github.io.git 5.git config &amp;ndash;global credential.helper store 6.git push -u origin master  </description>
+    </item>
+    
     <item>
       <title>scoket代码</title>
       <link>https://lqx2002.github.io/post/socket_code/</link>
@@ -29,7 +42,9 @@ int main(int argc,char** argv) { int servfd,clitfd; struct sockaddr_in serv_addr
       <pubDate>Sat, 17 Dec 2022 13:05:52 +0800</pubDate>
       
       <guid>https://lqx2002.github.io/post/linux/</guid>
-      <description>Linux课程学习笔记 常用命令 1).文件处理命令 1.命令格式与目录处理命令ls
+      <description>Linux课程学习笔记 常用命令
+1).文件处理命令
+1.命令格式与目录处理命令ls
 1.命令格式：命令 -[选项] [参数]
 2.ls 别名ll= ls -i
 -a 显示隐藏文件，隐藏文件是以“.”开头的文件
