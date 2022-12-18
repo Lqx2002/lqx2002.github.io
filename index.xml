@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>https://lqx2002.github.io/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 17 Dec 2022 13:05:52 +0800</lastBuildDate><atom:link href="https://lqx2002.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linux</title>
+      <link>https://lqx2002.github.io/post/linux/</link>
+      <pubDate>Sat, 17 Dec 2022 13:05:52 +0800</pubDate>
+      
+      <guid>https://lqx2002.github.io/post/linux/</guid>
+      <description>Linux课程学习笔记 常用命令 1).文件处理命令 1.命令格式与目录处理命令ls 1.命令格式：命令 -[选项] [参数] 2.ls 别名ll= ls -i -a 显示隐藏文件，隐藏文件是以“.”开头的文件 -i 显示详细信息 2).目录处理命令 mkdir：创建目录 -p 递归创建 cd：切换目录 cd ..表示返回上一级。..表示上级目录，.表示当前目录 cd：返回家目录 pwd：显示当前目录的绝对路径 rmdir:删除空目录，使用比较少 cp：复制文件或目录（复制同时可实现改名的作用） -r：复制目录 -p:保留文件属性 mv:剪切文件，改名 rm：删除文件或目上录 -r：删除目录 -f:强制执行 3).文件处理命令 touch：创建文件 文件名不能带&amp;quot;/&amp;ldquo;符号，不建议带空格的文件名 cat：顺序显示文件内容 -n：带行号 tac：反向显示文件内容 more：分页显示文件内容，但不能向上翻页 f或空格:向下翻页，Enter:向下换行,q或Q：退出 less:分页显示文件内容，可向上翻页，带查找功能 同more,另Page Down，Page Up为向上向下翻页，上下箭头为向上向下换行。 输入/XXX和？XXX为向下上查找字符，下一个按n head：显示文件前几行，默认10行 -n+“空格”+行数 tail:显示文件末尾几行，默认10行 同head -f：动态显示，常用于动态显示日志文件
+ 大作业完成步骤 1.注册github-&amp;gt;创建仓库 &amp;mdash;用于储存上传代码 2.利用socket技术编写两个c++程序，并放置于root目录下的git_space目录下。包含客户端和服务端，实现二者间的信息传递。 3.安装hugo和nginx-&amp;gt;利用hugo生成博客，下载并设置主题-&amp;gt;创建并编写linux.md文件内容-&amp;gt;上传至github，实现本地仓库与远程仓库关联</description>
+    </item>
+    
+  </channel>
+</rss>
